@@ -1,2 +1,6 @@
 sudo apt update
 sudo apt install mysql-client -y
+#connection to mysql from ec2
+mysql -h <RDS-ENDPOINT> -P 3306 -u <username> -p
+mysql -h database-1.cve6ka4qgss2.ap-southeast-2.rds.amazonaws.com -P 3306 -u admin -p
+
