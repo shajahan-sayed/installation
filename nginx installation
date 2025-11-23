@@ -1,0 +1,29 @@
+✅ Step-by-Step: Install Nginx on EC2 Ubuntu
+1. Update your system
+sudo apt update && sudo apt upgrade -y
+
+2. Install Nginx
+sudo apt install nginx -y
+
+3. Enable and start Nginx
+sudo systemctl enable nginx
+sudo systemctl start nginx
+
+4. Check Nginx status
+sudo systemctl status nginx
+2. Check nginx version
+nginx -v
+
+
+Look for active (running).
+
+🧪 Test Nginx in Browser
+
+If your EC2 instance has a public IP, open:
+
+http://YOUR_PUBLIC_IP
+
+
+If you see the Nginx welcome page, it's working!
+
+to create nginx html file (we need to go to cd /var/www/html/ -- index.html-- sudo nano index.html 
