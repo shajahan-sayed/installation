@@ -15,3 +15,19 @@ aws --version
 You should see:
 
 aws-cli/2.x.x Python/3.x Linux/...
+
+FIX: Set up AWS Credentials on Ubuntu
+
+You must configure AWS CLI first.
+
+Run:
+
+aws configure
+
+
+It will ask you for:
+
+AWS Access Key ID: 
+AWS Secret Access Key:
+Default region name:
+Default output format:
